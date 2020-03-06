@@ -1,0 +1,50 @@
+body{
+   background-color: darkblue;
+}
+
+#page{
+  width: 80%;
+  margin: auto;
+  background-color: lightblue;
+  align-content: center;
+}
+
+.header{
+  width: 100%;
+  background-color: lightblue;
+}
+
+#content{
+  width: 100%;
+  background-color: yellow;
+}
+
+.main{
+  width: 73%;
+  height: 500px;
+  float: left;
+  background-color: red;
+  padding: 1em;
+}
+
+.sidebar{
+  width: 20%;
+  height: 500px;
+  overflow:scroll;
+  border-left: 1px;
+  background-color: green;
+  padding-left: 1em;
+  padding-right: 1em;
+  float:right;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#footer{
+  text-align: center;
+  background-color: lightblue;
+}
