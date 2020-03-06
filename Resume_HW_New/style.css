@@ -1,0 +1,58 @@
+body{
+  background-color: light grey;
+}
+
+#wrapper{
+  background-color: #F8F8FF;
+  box-shadow: 2px 5px grey;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  background-color: #6495ED;
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+
+.h1{
+  text-align: center;
+}
+.contact{
+  float: right;
+  padding: 10px;
+}
+
+.img{
+  padding: 10px;
+
+}
+
+.skills{
+  padding: 10px;
+}
+
+.sidebar{
+  background-color: lightgrey ;
+  width: 12%;
+  height: 1143px;
+  border: 1px solid red;
+  float: left;
+}
+
+.main{
+padding: 190px;
+padding-top: 10px;
+}
+
+.textcolor{
+  color :red;
+}
+.footer{
+  background-color: #6495ED;
+  text-align: center;
+  width: 100%;
+  height: 110px;
+}
