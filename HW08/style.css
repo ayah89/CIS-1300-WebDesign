@@ -1,0 +1,24 @@
+body * {
+  box-sizing: border-box;
+}
+
+.rotate img {
+  height: auto;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 2em;
+  transition: width 2s, height 2s, transform 1s;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rotate img:hover {
+  transform: rotate(180deg);
+  filter: drop-shadow(16px 16px 20px red) invert(75%);
+  border-radius: 999px;
+}
