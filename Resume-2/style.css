@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: grey;
+}
+#wrapper{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgrey;
+  border: 3px solid #B22222;
+  border-radius: 10px;
+  box-shadow: 2px 5px #B22222 ;
+}
+
+.myName{
+  float: right;
+  width: 350px;
+  padding: 10px;
+  color: #800000;
+}
+
+.address {
+  float: right;
+  padding: 10px;
+  height: 50px;
+}
+
+.skills {
+  text-align: center;
+  color: #800000;
+}
+
+.column {
+  float: left;
+  width: 32.33%;
+  padding: 10px;
+  height: 150px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.experience {
+  text-align: center;
+  color: #800000;
+}
+
+.job1 {
+  text-align: center;
+  color: #B22222;
+}
+
+.text {
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  text-align: center;
+}
