@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+   background-color: darkblue;
+}
+
+img{
+  float: left;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+#page{
+  width: 80%;
+  margin: auto;
+  background-color: lightblue;
+  align-content: center;
+}
+
+.header{
+  /*width: 100%;*/
+  background-color: lightblue;
+  padding: 30px;
+  text-align: center;
+  line-height: 10px;
+
+}
+
+h1:hover{
+  color: yellow;
+}
+
+a:hover{
+  opacity: 0.3;
+}
+
+#content{
+  width: 100%;
+  background-color: yellow;
+}
+
+.main{
+  width: 80%;
+  height: 800px;
+  float: left;
+  background-color: red;
+  padding: 1em;
+}
+
+.sidebar{
+  width: 20%;
+  height: 800px;
+  overflow:scroll;
+  border-left: 1px;
+  background-color: green;
+  padding-left: 1em;
+  padding-right: 1em;
+  float:right;
+}
+
+.row::after{
+  display: table;
+  clear: both;
+}
+
+#menu, #menu ul{
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+#menu {
+  width: 200px;
+  margin: 30px auto;
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+#menu:before,
+#menu:after{
+  display: inline-block;
+}
+
+#menu:after{
+  clear: both;
+}
+
+#menu a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px 12px;
+}
+
+#menu ul {
+  visibility: hidden;
+}
+
+#menu li:hover > ul {
+  visibility: visible;
+}
+
+#menu a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#footer{
+  text-align: center;
+  padding: 10px;
+  background-color: lightblue;
+}
