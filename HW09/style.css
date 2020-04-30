@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: red;
+}
+@media only screen and (min-width: 1000px) {
+  .class1 {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px ) {
+  .class2 {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 900px ) {
+  .class3 {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .class4 {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 800px ) {
+  .class5 {
+    background-color: green;
+  }
+}
+
+@media only screen and (max-width: 700px ) {
+  .class6 {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px ) {
+  .class7 {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px ) {
+  .class8{
+    background-color: green;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .class9 {
+    background-color: green;
+  }
+}
